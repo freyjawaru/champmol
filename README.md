@@ -7,7 +7,7 @@ Manuscripts of the Chartreuse de Champmol is an full-stack application that stor
 
 
 # Component Hierarchy
-
+```
 src
 |__ App.js/
 |__ Main/
@@ -73,6 +73,8 @@ src
     |__items.js
     |__users.js
     |__comments.js
+    
+    ```
 # Component Tree
 
 https://whimsical.com/manuscripts-app-Jrv5KgT9uHmCorCZDN5oZ3
