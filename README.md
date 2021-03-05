@@ -105,6 +105,12 @@ https://whimsical.com/manuscripts-app-Jrv5KgT9uHmCorCZDN5oZ3
 
 ![Imgur](https://i.imgur.com/1jhTPMw.png)
 
+![Imgur](https://i.imgur.com/X5p24le.png)
+
+![Imgur](https://i.imgur.com/nRI3ZHP.png)
+
+
+
 # Time estimates
 
 
