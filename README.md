@@ -26,7 +26,7 @@ src
     |__ Register/
        |__Register.jsx
        |__Register.css
-    |__Recipes/
+    |__Items/
        |__ CreateItem/
           |__ CreateItem.jsx
           |__ CreateItem.css
@@ -73,7 +73,6 @@ src
     |__items.js
     |__users.js
     |__comments.js
-
 # Component Tree
 
 https://whimsical.com/manuscripts-app-Jrv5KgT9uHmCorCZDN5oZ3
