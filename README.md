@@ -103,7 +103,7 @@ https://whimsical.com/manuscripts-app-Jrv5KgT9uHmCorCZDN5oZ3
 
 ![Imgur](https://i.imgur.com/0iP7ys9.png)
 
-![Imgur](https://i.imgur.com/1jhTPMw.png)
+![[Imgur](https://i.imgur.com/fIW598O.png)
 
 ![Imgur](https://i.imgur.com/X5p24le.png)
 
@@ -130,7 +130,7 @@ https://whimsical.com/manuscripts-app-Jrv5KgT9uHmCorCZDN5oZ3
 
 # Server Back End ERD Model
 
-![Imgur](https://i.imgur.com/Igh0fXy.png)
+![Imgur](https://i.imgur.com/p2ffvTM.png)
 
 # Post-MVP
 
