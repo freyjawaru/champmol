@@ -10,71 +10,134 @@ Manuscripts of the Chartreuse de Champmol is an full-stack application that stor
 
 
 src
-|__ App.js/
-|__ Main/
-       |__Main.jsx
-       |__Main.css
-|__ components/
-    |__Header/
-       |__Header.jsx
-       |__Header.css
-    |__ Nav/
-       |__Nav.jsx
-       |__Header.css
-    |__ Login/
-       |__Login.jsx
-       |__Login.css
-    |__ Register/
-       |__Register.jsx
-       |__Register.css
-    |__Items/
-       |__ CreateItem/
-          |__ CreateItem.jsx
-          |__ CreateItem.css
-       |__ ShowItems/
-          |__ ShowItems.jsx
-          |__ ShowItems.css
-       |__ Item/
-          |__ Item.jsx
-          |__ Item.css
-       |__ UpdateItem/
-          |__ UpdateItem.jsx
-          |__ UpdateItem.jsx
-       |__ DeleteItem/
-          |__ DeleteItem.jsx
-          |__ DeleteItem.css
-    |__Users/
-       |__ CreateUser/
-          |__ CreateUser.jsx
-          |__ CreateUser.css
-       |__ ShowUser/
-          |__ ShowUser.jsx
-          |__ ShowUser.css
-       |__ UpdateUser/
-          |__ UpdateUser.jsx
-          |__ UpdateUser.jsx
-       |__ DeleteUser/
-          |__ DeleteUser.jsx
-          |__ DeleteUser.css
-    |__Comments/
-      |__ CreateComments/
-          |__ CreateComments.jsx
-          |__ CreateComments.css
-       |__ ShowComments/
-          |__ ShowComments.jsx
-          |__ ShowComments.css
-       |__ UpdateComments/
-          |__ UpdateComments.jsx
-          |__ UpdateComments.jsx
-       |__ DeleteComments/
-          |__ DeleteComments.jsx
-          |__ DeleteComments.css
-|__ services/
-    |__api-helper.js
-    |__manuscripts.js
-    |__users.js
-    |__comments.js
 
+|__ App.js/
+
+|__ Main/
+
+ |__Main.jsx
+
+ |__Main.css
+
+|__ components/
+
+ |__Header/
+
+ |__Header.jsx
+
+ |__Header.css
+
+ |__ Nav/
+
+ |__Nav.jsx
+
+ |__Header.css
+
+ |__ Login/
+
+ |__Login.jsx
+
+ |__Login.css
+
+ |__ Register/
+
+ |__Register.jsx
+
+ |__Register.css
+
+ |__Items/
+
+ |__ CreateItem/
+
+ |__ CreateItem.jsx
+
+ |__ CreateItem.css
+
+ |__ ShowItems/
+
+ |__ ShowItems.jsx
+
+ |__ ShowItems.css
+
+ |__ Item/
+
+ |__ Item.jsx
+
+ |__ Item.css
+
+ |__ UpdateItem/
+
+ |__ UpdateItem.jsx
+
+ |__ UpdateItem.jsx
+
+ |__ DeleteItem/
+
+ |__ DeleteItem.jsx
+
+ |__ DeleteItem.css
+
+ |__Users/
+
+ |__ CreateUser/
+
+ |__ CreateUser.jsx
+
+ |__ CreateUser.css
+
+ |__ ShowUser/
+
+ |__ ShowUser.jsx
+
+ |__ ShowUser.css
+
+ |__ UpdateUser/
+
+ |__ UpdateUser.jsx
+
+ |__ UpdateUser.jsx
+
+ |__ DeleteUser/
+
+ |__ DeleteUser.jsx
+
+ |__ DeleteUser.css
+
+ |__Comments/
+
+ |__ CreateComments/
+
+ |__ CreateComments.jsx
+
+ |__ CreateComments.css
+
+ |__ ShowComments/
+
+ |__ ShowComments.jsx
+
+ |__ ShowComments.css
+
+ |__ UpdateComments/
+
+ |__ UpdateComments.jsx
+
+ |__ UpdateComments.jsx
+
+ |__ DeleteComments/
+
+ |__ DeleteComments.jsx
+
+ |__ DeleteComments.css
+
+|__ services/
+
+ |__api-helper.js
+
+ |__manuscripts.js
+
+ |__users.js
+
+ |__comments.js
 
 # Component Tree
 
