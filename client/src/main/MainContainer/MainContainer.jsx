@@ -68,7 +68,8 @@ export default function MainContainer(props) {
         <Redirect to='/' />
       } */}
       <Route path='/items/new'>
-        <ItemCreate handleCreate={handleCreate} />
+          <ItemCreate handleCreate={handleCreate}
+            locations={locations} />
       </Route>
       <Route path='/items/:id/edit'>
         <ItemEdit

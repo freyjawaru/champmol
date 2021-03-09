@@ -4,7 +4,7 @@ import { getOneItem } from '../../services/items';
 import { addItemToLocation } from '../../services/locationsItems';
 
 export default function ItemDetail(props) {
-  const [item, setItem] = useState(null);
+  const [locationItem, setLocationItem] = useState(null);
   const [selectedLocation, setSelectedLocation] = useState('')
   const { id } = useParams();
   const { locations } = props;
@@ -12,7 +12,7 @@ export default function ItemDetail(props) {
   useEffect(() => {
     const fetchItem = async () => {
       const itemData = await getOneItem(id);
-      setItem(itemData);
+      setLocationItem(itemData);
     }
     fetchItem();
   }, [id])
@@ -25,24 +25,25 @@ export default function ItemDetail(props) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const itemData = await addItemToLocation(selectedLocation, id);
-    setItem(itemData);
+    setLocationItem(itemData);
   }
 
   return (
     <div>
-      <h3>{item?.name}</h3>
-      {/* {locations.map((location) => (
+    
+      <h3>{locationItem?.name}</h3>
+      {locationItem?.locations.map((location) => (
         <p key={location.id}>{location.name}</p>
-      ))} */}
-      {/* <form onSubmit={handleSubmit}>
+      ))}
+      <form onSubmit={handleSubmit}>
         <select defaultValue="default" onChange={handleChange}>
-          <option value="default" disabled>-- Select a Location --</option>
+          <option value="default" disabled>-- Select a location --</option>
           {locations.map(location => (
             <option value={location.id} key={location.id}>{location.name}</option>
           ))}
         </select>
         <button>add</button>
-      </form> */}
+      </form>
 
     </div>
   )
