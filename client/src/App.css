@@ -1,28 +1,32 @@
-p {
-  background-color: #0B2545;
-  color: #EEF4ED;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 18px;
-}
-h1 {
- background-color: #8DA9C4;
- color: #134074;
- font-family: 'Cormorant Garamond', serif;
- font-size: 30px;
- text-decoration: none;
 
+h1 {
+  background-color: #8da9c4;
+  color: #134074;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
 }
 h3 {
-  background-color: #0B2545;
-  color: #EEF4ED;
-  font-family: 'Cormorant Garamond', serif;
+  background-color: #0b2545;
+  color: #eef4ed;
+  font-family: "Cormorant Garamond", serif;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
 }
 .App {
+  background-color: #0b2545;
+  color: #eef4ed;
+  font-family: "Cormorant Garamond", serif;
+}
+header {
+  background-color: #8da9c4;
+}
 
-  background-color: #0B2545;
-  color: #EEF4ED;
-  font-family: 'Cormorant Garamond', serif;
+a {
+  color: #134074;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  text-decoration: none;
 }

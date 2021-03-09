@@ -1,3 +1,15 @@
-p {
-  background-color: #0B2545;
+p.about {
+  background-color: #0b2545;
+  color: #eef4ed;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  padding: 10px;
+  border: 5px solid #134074;
+  width: 50%;
+  text-align: center;
+  
+}
+
+.main {
+  text-align: center;
 }
