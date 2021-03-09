@@ -6,20 +6,20 @@ export default function ItemEdit(props) {
     name: ''
   });
   const { name } = formData;
-  const { Items, handleUpdate } = props;
+  const { items, handleUpdate } = props;
   const { id } = useParams();
 
   useEffect(() => {
     const prefillFormData = () => {
-      const ItemItem = Items.find((Item) => Item.id === Number(id));
+      const itemItem = items.find((item) => item.id === Number(id));
       setFormData({
-        name: ItemItem.name
+        name: itemItem.name
       });
     }
-    if (Items.length) {
+    if (items.length) {
       prefillFormData();
     }
-  }, [Items, id])
+  }, [items, id])
 
   const handleChange = (e) => {
     const { name, value } = e.target;

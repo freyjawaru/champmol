@@ -3,7 +3,7 @@ class AuthenticationController < ApplicationController
 
   # POST /auth/login
   def login
-    @user = User.find_by(user_name: login_params[:user_name])
+    @user = User.find_by(username: login_params[:username])
     if @user.authenticate(login_params[:password]) #authenticate method provided by Bcrypt and 'has_secure_password'
       token = encode({id: @user.id})
       render json: {
@@ -23,6 +23,6 @@ class AuthenticationController < ApplicationController
   private
 
   def login_params
-    params.require(:authentication).permit(:user_name, :password)
+    params.require(:authentication).permit(:username, :password)
   end
 end

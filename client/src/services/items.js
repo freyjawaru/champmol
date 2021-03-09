@@ -1,26 +1,26 @@
 import api from './api-config';
 
 export const getAllItems = async () => {
-  const resp = await api.get('/Items');
+  const resp = await api.get('/items');
   return resp.data;
 }
 
 export const getOneItem = async (id) => {
-  const resp = await api.get(`/Items/${id}`);
+  const resp = await api.get(`/items/${id}`);
   return resp.data;
 }
 
-export const postItem = async (ItemData) => {
-  const resp = await api.post('/Items', { Item: ItemData });
+export const postItem = async (itemData) => {
+  const resp = await api.post('/items', { item: itemData });
   return resp.data;
 }
 
-export const putItem = async (id, ItemData) => {
-  const resp = await api.put(`/Items/${id}`, { Item: ItemData });
+export const putItem = async (id, itemData) => {
+  const resp = await api.put(`/items/${id}`, { item: itemData });
   return resp.data;
 }
 
 export const destroyItem = async (id) => {
-  const resp = await api.delete(`/Items/${id}`);
+  const resp = await api.delete(`/items/${id}`);
   return resp;
 }

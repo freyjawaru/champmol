@@ -22,7 +22,7 @@ class ApplicationController < ActionController::API
     else
       render json: @user.errors, status: :unprocessable_entity
     end
-  
+  end
   def authorize_request
     header = request.headers['Authorization']
     header = header.split(' ').last if header

@@ -60,10 +60,10 @@ export default function MainContainer(props) {
       The full design and art program of the monastery has been studied and written about by Sherry Lindquist in her well-known book, Agency, Visuality and Society at the Chartreuse de Champmol. The manuscripts, however, remain mostly unstudied. They are the focus of my future dissertation. The purpose of this site is to gather in one place the manuscripts made by and for the monks of the Chartreuse de Champmol.
       </p>
     <Switch>
-      {
+      {/* {
         !currentUser &&
         <Redirect to='/' />
-      }
+      } */}
       <Route path='/items/new'>
         <ItemCreate handleCreate={handleCreate} />
       </Route>
