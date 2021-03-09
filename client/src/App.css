@@ -1,3 +1,28 @@
-.App {
+p {
+  background-color: #0B2545;
+  color: #EEF4ED;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+}
+h1 {
+ background-color: #8DA9C4;
+ color: #134074;
+ font-family: 'Cormorant Garamond', serif;
+ font-size: 30px;
+ text-decoration: none;
+
+}
+h3 {
+  background-color: #0B2545;
+  color: #EEF4ED;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 24px;
+  font-weight: bold;
   text-align: center;
+}
+.App {
+
+  background-color: #0B2545;
+  color: #EEF4ED;
+  font-family: 'Cormorant Garamond', serif;
 }
