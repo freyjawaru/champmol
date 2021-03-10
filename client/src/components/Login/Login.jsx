@@ -27,7 +27,7 @@ export default function Login(props) {
         error &&
         <p>{error}</p>
       }
-      <label>
+      <label className="loginUsername">
         Username:
         <input
           type='text'

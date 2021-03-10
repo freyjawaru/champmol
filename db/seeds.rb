@@ -22,23 +22,23 @@ puts "#{Location.count} Location created."
 Item.create!(
   title: 'MS M115',
   description: 'Gradual',
-  image_url: 'https://imgur.com/6ujGYoG',
+  image_url: 'https://i.imgur.com/6ujGYoG.jpg',
   user: User.all.sample,
   location: @standard,
-  DateCreated: 1470
+  DateCreated: '1470'
 )
 Item.create!(
   title: 'Lewis E 8',
   description: 'Fragments, gradual',
-  image_url: 'https://imgur.com/Zu2TAwV',
+  image_url: 'https://i.imgur.com/Zu2TAwV.jpg',
   user: User.all.sample,
   location: @modern,
-  DateCreated: 1470
+  DateCreated: '1470'
 )
 Item.create!(
   title: 'MS617',
   description: 'liturgical',
-  image_url: 'https://imgur.com/oqJ63hg',
+  image_url: 'https://i.imgur.com/oqJ63hg.jpg',
   user: User.all.sample,
   location: @pioneer,
   DateCreated: '15th century'
@@ -46,7 +46,7 @@ Item.create!(
 Item.create!(
   title: 'MS223',
   description: 'liturgical',
-  image_url: 'https://imgur.com/0GHe8oo',
+  image_url: 'https://i.imgur.com/fhdguoj.png?1',
   user: User.all.sample,
   location: @pioneer,
   DateCreated: '15th century'

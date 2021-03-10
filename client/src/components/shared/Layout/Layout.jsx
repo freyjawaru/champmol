@@ -5,13 +5,13 @@ export default function Layout(props) {
   const { currentUser, handleLogout } = props;
 
   return (
-    <div className="App">
+    <div className="layout">
       <header>
         <Link to='/'><h1>Manuscripts from the Chartreuse de Champmol</h1></Link>
         {
           currentUser ?
             <>
-              <p>{currentUser.username}</p>
+              <p className="currentUser">{currentUser.username}</p>
               <button onClick={handleLogout}>Logout</button>
             </>
             :

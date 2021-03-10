@@ -87,7 +87,9 @@ export default function MainContainer(props) {
           items={items}
           currentUser={currentUser}
           handleDelete={handleDelete}
-        />
+          />
+          <br />
+          
       </Route>
       <Route path='/locations'>
         <Locations

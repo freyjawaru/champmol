@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Items.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Items.css";
 
 export default function Items(props) {
   const { items, handleDelete, currentUser } = props;
@@ -10,18 +10,26 @@ export default function Items(props) {
       <h3>Items</h3>
       {items.map((item) => (
         <div className="itemDiv" key={item.id}>
-          <Link to={`/items/${item.id}`}><p>{item.title}</p></Link>
+          <Link to={`/items/${item.id}`}>
+            <p>{item.title}</p>
+          </Link>
 
-          { item.user_id === currentUser?.id &&
-            <>
-              <Link to={`/items/${item.id}/edit`}><button>edit</button></Link>
+          {item.user_id === currentUser?.id && (
+            <div className="itemButtons">
+              <Link to={`/items/${item.id}/edit`}>
+                <button>edit</button>
+              </Link>
+
               <button onClick={() => handleDelete(item.id)}>delete</button>
-            </>
-          }
+            </div>
+          )}
         </div>
       ))}
-      <br />
-      <Link to='/items/new'><button>Create</button></Link>
+      <div className="createButton">
+        <Link to="/items/new">
+          <button>Create</button>
+        </Link>
+      </div>
     </div>
-  )
+  );
 }
