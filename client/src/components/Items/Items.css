@@ -6,13 +6,17 @@ a {
   text-align: center;
 
 }
+.itemContainer {
+display: grid;
 
-p {
+
+}
+p.itemList{
   color: #EEF4ED;
   font-family: "Cormorant Garamond", serif;
   font-size: 18px;
-text-align: center;
 background-color:  #134074;
+width: 30%
 
 }
 button {
@@ -27,13 +31,9 @@ width: 4em;
 }
 
 .itemButtons {
-display:flex;
-justify-content: center;
-align-items: center;
+
 }
 
 .createButton {
-  display:flex;
-  justify-content: center;
-  align-items: center;
+  
 }

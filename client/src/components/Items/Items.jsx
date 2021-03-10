@@ -6,12 +6,12 @@ export default function Items(props) {
   const { items, handleDelete, currentUser } = props;
 
   return (
-    <div>
+    <div className="itemContainer">
       <h3>Items</h3>
       {items.map((item) => (
         <div className="itemDiv" key={item.id}>
           <Link to={`/items/${item.id}`}>
-            <p>{item.title}</p>
+            <p className="itemList">{item.title}</p>
           </Link>
 
           {item.user_id === currentUser?.id && (
