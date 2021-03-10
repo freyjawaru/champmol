@@ -10,7 +10,7 @@ export const getOneItem = async (id) => {
   return resp.data;
 }
 
-export const postItem = async (locationId, itemData) => {
+export const postItem = async (itemData) => {
   const resp = await api.post('/items', { item: itemData });
   return resp.data;
 }

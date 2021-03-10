@@ -10,9 +10,9 @@ export default function ItemCreate(props) {
     location_id: "",
     repository: "",
   });
-  const { locations } = props;
+  const { locations, handleCreate} = props;
   console.log(locations);
-  const [items, setItems] = useState({});
+  
   const { title, description, image_url, location_id, repository } = formData;
 
   const history = useHistory();
@@ -25,15 +25,6 @@ export default function ItemCreate(props) {
     }));
   };
 
-  const handleCreate = async (formData) => {
-    const newItem = await postItem(formData);
-    setItems((prevState) => [...prevState, newItem]);
-    history.push("/items");
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-  };
 
   return (
     <div className="formcreate">
@@ -75,12 +66,12 @@ export default function ItemCreate(props) {
         </label>
         <br />
 
-        <select defaultValue="default" onChange={handleChange}>
+        <select defaultValue="default" onChange={handleChange} name="location_id">
           <option value="default" disabled>
             -- Select a location --
           </option>
           {locations.map((location) => (
-            <option value={location.repository} key={location.id}>
+            <option value={location.id} key={location.id} >
               {location.repository}
             </option>
           ))}

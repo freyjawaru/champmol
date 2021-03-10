@@ -31,19 +31,22 @@ export default function ItemDetail(props) {
   return (
     <div>
     
-      <h3>{locationItem?.name}</h3>
-      {locationItem?.locations.map((location) => (
-        <p key={location.id}>{location.name}</p>
-      ))}
-      <form onSubmit={handleSubmit}>
+      <h3>{locationItem?.title}</h3>
+      <h3>{locationItem?.description}</h3>
+      
+        <img src={locationItem?.image_url} />
+      <h3>{locationItem?.DateCreated}</h3>
+
+    
+      {/* <form onSubmit={handleSubmit}>
         <select defaultValue="default" onChange={handleChange}>
           <option value="default" disabled>-- Select a location --</option>
           {locations.map(location => (
-            <option value={location.id} key={location.id}>{location.name}</option>
+            <option value={location.id} key={location.id}>{location.repository}</option>
           ))}
         </select>
         <button>add</button>
-      </form>
+      </form> */}
 
     </div>
   )

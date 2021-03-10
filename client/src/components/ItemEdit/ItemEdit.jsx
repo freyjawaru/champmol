@@ -3,9 +3,9 @@ import { useParams } from 'react-router-dom';
 
 export default function ItemEdit(props) {
   const [formData, setFormData] = useState({
-    name: ''
+    title: ''
   });
-  const { name } = formData;
+  const { title } = formData;
   const { items, handleUpdate } = props;
   const { id } = useParams();
 
@@ -13,7 +13,7 @@ export default function ItemEdit(props) {
     const prefillFormData = () => {
       const itemItem = items.find((item) => item.id === Number(id));
       setFormData({
-        name: itemItem.name
+        title: itemItem.title
       });
     }
     if (items.length) {
@@ -35,11 +35,11 @@ export default function ItemEdit(props) {
       handleUpdate(id, formData);
     }}>
       <h3>Edit Item</h3>
-      <label>Name:
+      <label>title:
         <input
           type='text'
-          name='name'
-          value={name}
+          name='title'
+          value={title}
           onChange={handleChange}
         />
       </label>
