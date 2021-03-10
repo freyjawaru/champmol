@@ -7,7 +7,7 @@ export default function Locations(props) {
     <div>
       <h3>Locations</h3>
       {locations.map((location) => (
-        <p key={location.id}>{location.name}</p>
+        <p key={location.id}>{location.repository}</p>
       ))}
     </div>
   )

@@ -1,15 +1,72 @@
+
+div.aboutDiv {
+  padding: 10px;
+  border: 5px solid #134074;
+  margin: 50px;
+}
+
 p.about {
   background-color: #0b2545;
   color: #eef4ed;
   font-family: "Cormorant Garamond", serif;
   font-size: 18px;
-  padding: 10px;
-  border: 5px solid #134074;
-  width: 50%;
   text-align: center;
   
 }
 
+h1 {
+  background-image: url("https://imgur.com/4puV58w");
+  color: #0b2545;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 30px;
+  text-align: center;
+
+}
+
 .main {
   text-align: center;
+}
+
+form {
+  display: grid;
+ justify-content: center;
+
+}
+
+header {
+  display: grid;
+
+}
+
+a {
+  margin-top: 30px;
+  color: #134074;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button {
+border-radius: 15px;
+border: 2px solid #EEF4ED;
+text-shadow: vertical -2px;
+font-size: 16px;
+color: #8DA9C4;
+background-color: #134074;
+height: 2em;
+width: 4em;
+
+
+
+}
+h3 {
+  background-color: #0b2545;
+  color: #eef4ed;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 24px;
+  text-align: center;
+}
+label {
+  font-family: "Cormorant Garamond", serif;
 }

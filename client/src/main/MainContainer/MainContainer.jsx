@@ -53,7 +53,8 @@ export default function MainContainer(props) {
   return (
     <>
       <div className="main">
-      <h3>About</h3>
+        <h3>About</h3>
+        <div className="aboutDiv">
       <p className="about">The Chartreuse de Champmol was dedicated in 1383 by Margaret of Flanders, the Duchess of Burgundy. She and her husband, Philip the Bold, were active patrons of the monastery and both were personally involved in it throughout their lives. Philip was buried there: his coffin is surrounded with pleurants, or carved grieving monks made by Claus Sluter and his workshop. 
       <br />
       The monastery was destroyed in 1792. Some of the manuscripts and library made their way to Paris, where they were broken and sold by booksellers. Others remained in Dijon.
@@ -61,6 +62,7 @@ export default function MainContainer(props) {
       <br />
       The full design and art program of the monastery has been studied and written about by Sherry Lindquist in her well-known book, Agency, Visuality and Society at the Chartreuse de Champmol. The manuscripts, however, remain mostly unstudied. They are the focus of my future dissertation. The purpose of this site is to gather in one place the manuscripts made by and for the monks of the Chartreuse de Champmol.
       </p>
+      </div>
       </div>
     <Switch>
       {/* {

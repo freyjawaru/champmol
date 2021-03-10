@@ -1,4 +1,6 @@
-
+body {
+  background-color: #0B2545;
+}
 h1 {
   background-color: #8da9c4;
   color: #134074;
@@ -19,6 +21,7 @@ h3 {
   background-color: #0b2545;
   color: #eef4ed;
   font-family: "Cormorant Garamond", serif;
+  
 }
 header {
   background-color: #8da9c4;
@@ -27,6 +30,6 @@ header {
 a {
   color: #134074;
   font-family: "Cormorant Garamond", serif;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
 }

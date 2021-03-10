@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Items.css';
 
 export default function Items(props) {
   const { items, handleDelete, currentUser } = props;
@@ -8,15 +9,16 @@ export default function Items(props) {
     <div>
       <h3>Items</h3>
       {items.map((item) => (
-        <React.Fragment key={item.id}>
-          <Link to={`/items/${item.id}`}><p>{item.name}</p></Link>
+        <div className="itemDiv" key={item.id}>
+          <Link to={`/items/${item.id}`}><p>{item.title}</p></Link>
+
           { item.user_id === currentUser?.id &&
             <>
               <Link to={`/items/${item.id}/edit`}><button>edit</button></Link>
               <button onClick={() => handleDelete(item.id)}>delete</button>
             </>
           }
-        </React.Fragment>
+        </div>
       ))}
       <br />
       <Link to='/items/new'><button>Create</button></Link>
