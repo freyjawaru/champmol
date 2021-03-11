@@ -15,7 +15,7 @@ p.itemList{
   color: #EEF4ED;
   font-family: "Cormorant Garamond", serif;
   font-size: 18px;
-background-color:  #134074;
+  background-color:  #0b2545;
 width: 30%
 
 }
@@ -30,10 +30,8 @@ height: 2em;
 width: 4em;
 }
 
-.itemButtons {
-
-}
-
-.createButton {
-  
+@media screen and (max-width: 1024px) {
+  a{
+    color: white;
+  }
 }

@@ -1,13 +1,14 @@
 import React from 'react'
+import './Locations.css';
 
 export default function Locations(props) {
   const { locations } = props;
 
   return (
-    <div>
+    <div className="locationContainer">
       <h3>Locations</h3>
       {locations.map((location) => (
-        <p key={location.id}>{location.repository}</p>
+        <div className="locationList"key={location.id}>{location.repository}</div>
       ))}
     </div>
   )

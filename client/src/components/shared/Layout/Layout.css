@@ -40,3 +40,18 @@ div.navLinks {
 a.itemLink{
   margin-right: 30px;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .currentUser {
+    margin-top: 150px;
+    color: white;
+  }
+  .navLinks{
+    color:white;
+  }
+  a.itemLink{
+    color: white;
+  }
+
+}

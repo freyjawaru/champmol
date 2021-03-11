@@ -24,9 +24,9 @@ h3 {
   
 }
 header {
-  background-image: url("https://i.imgur.com/4puV58w.jpg");
+  background-image: url("https://i.imgur.com/Bcq5UNp.jpg");
   background-position: center;
-  height: 300px;
+  height: 50vh;
   
 }
 
@@ -38,3 +38,11 @@ header {
   margin-top: 40px;
 } */
 
+@media screen and (max-width: 1024px) {
+  header {
+    background-image: url("https://i.imgur.com/G1Twtl5.jpg");
+  height: 300px;
+  }
+  
+
+}

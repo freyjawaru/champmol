@@ -4,3 +4,25 @@ form {
 
 }
 
+.loginUsername {
+  color: #eef4ed;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  text-align: center;
+
+}
+
+.label {
+
+  color: #eef4ed;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  text-align: center;
+}
+.registerLink {
+
+  color: #eef4ed;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  text-align: center;
+}

@@ -50,7 +50,7 @@ width: 4em;
 
 } */
 h3 {
-  background-color: #224168;
+  
   color: #eef4ed;
   font-family: "Cormorant Garamond", serif;
   font-size: 24px;
@@ -58,6 +58,8 @@ h3 {
 }
 label {
   font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  color: #eef4ed;
 }
 
 img {
@@ -65,3 +67,7 @@ img {
   image-orientation: center;
       
   }
+  @media screen and (max-width: 1024px) {
+  .main {
+    background-color:  #8da9c4;
+  }}
