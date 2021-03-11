@@ -50,7 +50,7 @@ width: 4em;
 
 } */
 h3 {
-  background-color: #0b2545;
+  background-color: #224168;
   color: #eef4ed;
   font-family: "Cormorant Garamond", serif;
   font-size: 24px;
@@ -59,3 +59,9 @@ h3 {
 label {
   font-family: "Cormorant Garamond", serif;
 }
+
+img {
+  height: 100em;
+  image-orientation: center;
+      
+  }
